@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;     
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+}
+
+.result{
+    width: 400px;
+    height: 85.6;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.output{
+    font-size: 40px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.numbers{
+    background-color: #D8D9D8;
+    border: 2px solid black;
+    width: 25%;
+    font-size: 40px;
+    font-style: arial;
+    color: black;
+    cursor: pointer;
+}
+
+.zero{
+    width: 75%;
+}
+
+.operator{
+    background-color: #df974c;
+    border: 2px solid black;
+    width: 25%;
+    font-size: 40px;
+    font-style: arial;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.equal{
+    width: 25%;
+}
+
+.C{
+    background-color: #D8D9D8;
+    width: 50%;
+    font-size: 40px;
+    font-style: arial;
+    color: black;
+}
+
+.backspace{
+    background-color: #D8D9D8;
+    width: 25%;
+    font-size: 40px;
+    font-style: arial;
+    color: black;
+}
+
+.numbers:hover{
+    background-color: #EBEBEB;
+}
+
+.C:hover{
+    background-color: #EBEBEB;
+}
+
+.operator:hover{
+    background-color: #dbac79;
+}
+
+.backspace:hover{
+    background-color: #ebebeb;
+}
+
+.numbers:active{
+    background-color: #af4545;
+    transform: translateY(4px);
+}
+
+.C:active{
+    background-color: #af4545;
+    transform: translateY(4px);
+}
+
+.operator:active{
+    background-color: #af4545;
+    transform: translateY(4px);
+}
+
+.backspace:active{
+    background-color: #af4545;
+    transform: translateY(4px);
+}
+
