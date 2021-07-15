@@ -5,6 +5,7 @@ let check=0;
 let array = ["", "",""];
 let k=0;
 
+
 button.addEventListener('click',(event)=>{
     const target = event.target;
     if(target.tagName === "BUTTON")
